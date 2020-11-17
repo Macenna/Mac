@@ -12,10 +12,12 @@ body {
   line-height: 150%;
   color: #333;
   background: #efeee7;
+  text-align: center;
 }
 
 header {
   background: #d21034;
+  text-align: center;
 }
 
 h1 {
@@ -59,4 +61,5 @@ a {
   width: 200px;
   height: 200px;
   margin-right: 20px;
+  
 }
