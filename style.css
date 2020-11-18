@@ -10,13 +10,13 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
-  color: #333;
-  background: #efeee7;
+  color: rgb(25, 94, 23);
+  background: #ffffff;
   text-align: center;
 }
 
 header {
-  background: #d21034;
+  background: #78d0eb;
   text-align: center;
 }
 
@@ -26,16 +26,15 @@ h1 {
   margin-bottom: 20px;
   font-size: 28px;
   color: #eee;
-  text-align: center;
   background: #333;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 a {
-  color: #d21034;
+  color: #191b97;
 }
 
 .container {
@@ -44,7 +43,6 @@ a {
 }
 
 #main-bio,
-#contact-info,
 #bio-image {
   float: left;
 }
@@ -54,12 +52,16 @@ a {
 }
 
 #contact-info {
-  width: 30%;
+  width: 100%;
+  float: inline-end;
 }
 
 #bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   
 }
