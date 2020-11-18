@@ -4,36 +4,41 @@ Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser. 
 */
 
+.pretty-header {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
 body {
   padding: 0;
-  margin-right: 100px;
-  margin-left: 100px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 130%;
   color: rgb(25, 94, 23);
-  background: #ffffff;
+  background: white;
   text-align: center;
 }
 
 header {
   text-align: center;
+  padding: 100px;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #eee;
+  background-image: url(IMG_20190421_193238-EFFECTS.jpg);
 }
 
 h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #eee;
-  background: rgb(17, 65, 15);
+  
   
 }
 
 h3 {
   font-family: 'Times New Roman', Times, serif;
   color: rgb(17, 65, 15);
+  font-size: 22px;
 }
 
 a {
@@ -42,7 +47,11 @@ a {
 
 .container {
   width: auto;
-  margin: 0 auto;
+  margin: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+  background: white;
+  font-size: 18px;
 }
 
 #bio-image {
@@ -64,5 +73,6 @@ a {
   width: auto;
   float: inline-end;
 }
+
 
 
