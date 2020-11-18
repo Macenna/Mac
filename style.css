@@ -6,7 +6,8 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 
 body {
   padding: 0;
-  margin: 0;
+  margin-right: 100px;
+  margin-left: 100px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
@@ -16,7 +17,6 @@ body {
 }
 
 header {
-  background: #78d0eb;
   text-align: center;
 }
 
@@ -25,12 +25,15 @@ h1 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
   color: #eee;
-  background: #333;
+  background: rgb(17, 65, 15);
+  
 }
 
-h2 {
-  font-size: 22px;
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(17, 65, 15);
 }
 
 a {
@@ -38,22 +41,8 @@ a {
 }
 
 .container {
-  width: 1024px;
+  width: auto;
   margin: 0 auto;
-}
-
-#main-bio,
-#bio-image {
-  float: left;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 100%;
-  float: inline-end;
 }
 
 #bio-image {
@@ -62,6 +51,18 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
   
 }
+
+
+#main-bio {
+  width: auto;
+  float: center;
+}
+
+#contact-info {
+  width: auto;
+  float: inline-end;
+}
+
+
