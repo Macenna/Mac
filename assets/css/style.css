@@ -181,4 +181,32 @@ main {
   opacity: .7;
 }
 
+/*Personal Information*/
+.card-body {
+  /* give input boxes right angles */
+  border-radius: 0;
+
+  /* keep from horizontally resizing text area */
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.btn-primary {
+  /* Box-model */
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+
+  /* Typography */
+  color: #fff;
+
+  /* Visual */
+  background-color: #4aaaa5;
+  border: 0;
+}
+
+.btn-primary:hover {
+  opacity: .7;
+}
+/* End Personal Information */
 /* END CONTACT FORM PAGE */
