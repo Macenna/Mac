@@ -1,4 +1,5 @@
 # Portfolio for Macenna Cowen
-![PortfolioScreenShot](https://user-images.githubusercontent.com/38767248/99600279-1c9bbb00-29cb-11eb-87c2-cdfe9ee24a6b.png)
+![Screen Shot 2020-11-24 at 4 31 29 PM](https://user-images.githubusercontent.com/38767248/100153721-835d2080-2e72-11eb-81c4-44610279e46f.png)
+
 
 https://macenna.github.io/Mac/
